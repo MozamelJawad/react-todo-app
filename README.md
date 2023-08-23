@@ -28,7 +28,7 @@
 
 # 📖 react-todo-app <a name="about-project"></a>
 
-**react-todo-app** is a learning and exercise project, in this exercise, I work on the main feature of React, like components, props, state, and hooks, by following a tutorial.
+**react-todo-app** is a learning and exercise project, in this exercise, I work on the main feature of React, like components, props, state, and hooks.
 
 ## 🛠 Built With <a name="built-with"></a>
 
