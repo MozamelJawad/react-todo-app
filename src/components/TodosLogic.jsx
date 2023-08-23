@@ -1,7 +1,7 @@
 import InputTodo from "@/components/InputTodo";
 import TodosList from "@/components/TodosList";
 import { v4 as uuidv4 } from "uuid";
-import React, {useState} from "react";
+import {useState} from "react";
 
 const TodosLogic = () => {
     const [todos, setTodos] = useState([

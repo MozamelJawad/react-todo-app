@@ -1,10 +1,9 @@
 import styles from '@/styles/TodoItem.module.css';
 import { useState } from 'react';
 
-const TodoItem = ({itemProp, handleChange, delTodo, setUpdate}) => {
+const TodoItem = (prop) => {
+    const {itemProp,handleChange,delTodo, setUpdate} = prop;
     const [editing, setEditing] = useState(false);
-
-
 
     const completedStyle = {
         fontStyle: 'italic',
